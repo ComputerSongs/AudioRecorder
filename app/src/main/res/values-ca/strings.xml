@@ -188,6 +188,7 @@
 	<string name="info_bitrate_192"><b>192 kbps</b>	és una taxa de bits de qualitat mitjana.</string>
 	<string name="info_bitrate_256"><b>256 kbps</b>	és una taxa de bits de bona qualitat.</string>
 	<string name="info_bitrate_288"><b>288 kbps</b>	és una taxa de bits de bona qualitat.</string>
+	<string name="info_bitrate_320"><b>320 kbps</b>	és una taxa de bits de bona qualitat.</string>
 	<string name="info_sample_rate_8k"><b>8kHz</b> és una freqüència de mostreig amb menys amplada de banda que els sistemes telefònics moderns. No és adequat per a cap tasca seriosa de gravació.</string>
 	<string name="info_sample_rate_16k"><b>16kHz</b> és millor que 8kHz.</string>
 	<string name="info_sample_rate_22k"><b>22kHz</b> és una freqüència de mostreig comuna per a taxes de bits baixes, com ara 64 kbps.</string>
@@ -258,6 +259,7 @@
 		<item>192 kbps</item>
 		<item>256 kbps</item>
 		<item>288 kbps</item>
+		<item>320 kbps</item>
 	</string-array>
 
 	<string-array name="sample_rates2">
