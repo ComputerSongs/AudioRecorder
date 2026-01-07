@@ -196,6 +196,7 @@ public class SettingsActivity extends Activity implements SettingsContract.View,
 				SettingsMapper.BITRATE_192000,
 				SettingsMapper.BITRATE_256000,
 				SettingsMapper.BITRATE_288000,
+				SettingsMapper.BITRATE_320000,
 		};
 		bitrateSetting.setData(rates, rateKeys);
 		bitrateSetting.setOnChipCheckListener((key, name, checked) -> presenter.setSettingRecordingBitrate(SettingsMapper.keyToBitrate(key)));
