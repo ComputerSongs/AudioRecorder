@@ -66,6 +66,7 @@ public class SettingsMapper {
 	public final static String BITRATE_192000 = "192000";
 	public final static String BITRATE_256000 = "256000";
 	public final static String BITRATE_288000 = "288000";
+	public final static String BITRATE_320000 = "320000";
 
 	public final static String CHANNEL_COUNT_STEREO = "stereo";
 	public final static String CHANNEL_COUNT_MONO = "mono";
@@ -106,6 +107,7 @@ public class SettingsMapper {
 				SettingsMapper.BITRATE_192000,
 				SettingsMapper.BITRATE_256000,
 				SettingsMapper.BITRATE_288000,
+				SettingsMapper.BITRATE_320000,
 		};
 		recChannels = resources.getStringArray(R.array.channels);
 		recChannelsKeys = new String[] {
@@ -249,6 +251,8 @@ public class SettingsMapper {
 				return AppConstants.RECORD_ENCODING_BITRATE_256000;
 			case BITRATE_288000:
 				return AppConstants.RECORD_ENCODING_BITRATE_288000;
+			case BITRATE_320000:
+				return AppConstants.RECORD_ENCODING_BITRATE_320000;
 			default:
 				return AppConstants.DEFAULT_RECORD_ENCODING_BITRATE;
 		}
@@ -273,6 +277,8 @@ public class SettingsMapper {
 				return BITRATE_256000;
 			case AppConstants.RECORD_ENCODING_BITRATE_288000:
 				return BITRATE_288000;
+			case AppConstants.RECORD_ENCODING_BITRATE_320000:
+				return BITRATE_320000;
 		}
 	}
 
